@@ -43,6 +43,7 @@ h1 {
 h2 {
   font-size: 30px;
   line-height: 35px;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -71,7 +72,9 @@ a,
 a:hover {
   text-decoration: none;
 }
-
+section .row {
+  margin-bottom: 20px;
+}
 .btn-primary {
   background: var(--primarycolor);
   color: var(--whitecolor);
@@ -254,6 +257,9 @@ ul.list-none {
 }
 .section-page {
   margin-top: 125px;
+  
+}
+.bg-primary-shade {
   background: var(--primary-shade-1);
 }
 /* Header */
@@ -355,11 +361,19 @@ color: var(--primarycolor);
 
 .section-page h1 {
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 .breadcrumb-ul {
   list-style: none;
   gap: 10px;
+  font-family: "Roboto Slab", serif;
 }
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 20px !important;
+  font-weight: bold;
+  color: var(--color-white);
+}
+
 /* Footer */
 footer {
   background: var(--pureblack)
